@@ -103,6 +103,16 @@ const searchInput = document.querySelector("#gearch");
 
 const form = document.querySelector("form");
 
+function filterMovies() {
+  const selectedValue = selectedCategory.value;
+
+  const searchTerm = searchInput.value.toLowerCase().trim();
+
+  let filteredMovies = movies;
+
+
+}
+
 function displayMovies(movieList) {
   const html = movieList
     .map((movie) => {
