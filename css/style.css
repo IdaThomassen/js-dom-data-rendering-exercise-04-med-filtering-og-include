@@ -51,3 +51,11 @@ figcaption {
   margin-bottom: 0.5rem;
   margin-left: 10px;
 }
+
+form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  gap: 6px;
+}
