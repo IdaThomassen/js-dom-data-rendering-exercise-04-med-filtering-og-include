@@ -127,6 +127,9 @@ function filterMovies() {
 
 selectedCategory.addEventListener("change", filterMovies);
 
+searchInput.addEventListener("input", filterMovies);
+
+
 
 
 function displayMovies(movieList) {
